@@ -169,7 +169,7 @@ h6 a {
 	color: inherit;
 }
 h1 {
-	font-size: 3rem;
+	font-size: 4rem;
 }
 h2 {
 	font-size: 2rem;
@@ -896,6 +896,11 @@ label {
     margin-bottom: 2px;
     line-height: 26px;
 }
+
+.telegram-icon{
+	color: var(--twitter);
+}
+
 .social-icon-right > a {
 	color: var(--tg-primary-color);
 	display: inline-block;
@@ -1343,7 +1348,7 @@ label {
     border-top: 1px solid rgba(255, 255, 255, 0.10);
     border-bottom: 1px solid rgba(255, 255, 255, 0.10);
     position: relative;
-    padding: 45px 0;
+    padding: 0 0 30px 10px;
 }
 .brand-item-wrap::after,
 .brand-item-wrap::before {
@@ -3404,7 +3409,7 @@ label {
     z-index: -1;
     background: linear-gradient(0deg, #CFC1F3 0%, #A084E8 -23.62%, var(--tg-black) 35.11%);
     filter: blur(225px);
-    top: -1292px;
+    top: -1592px;
     width: 1873px;
     height: 2191px;
     transform: translate(-50%, 0);
@@ -3878,6 +3883,18 @@ label {
 }
 
 /* Why choose area 1 ---------------------------------- */
+.chose-area-image {
+	border-radius: 15px;
+	width: 575px;
+	display: inline-block;
+	transition: transform 0.3s ease-in-out;
+}
+
+.chose-area-image:hover {
+	transform: scale(1.05);
+}
+
+
 /*skill-feature**************/
 .skill-feature {
     position: relative;
@@ -4016,11 +4033,6 @@ label {
   }
   .feature-card-icon img {
     transition: 0.4s;
-  }
-  .feature-card-image {
-	  width: 100%;
-	  height: 100%;
-	  border-radius: 15px;
   }
   .feature-card-title {
     font-size: 20px;

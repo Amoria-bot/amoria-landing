@@ -10,7 +10,7 @@ const CtaAreaTwo = () => {
             <div className="cta-wrap3">
                <div className="cta-wrap-details">
                   <div className="section-title mb-20">
-                     <h2 className="title style2 text-title">Daring conversations to awaken your passion</h2>
+                     <h2 className="title style2 text-title">Daring Conversations to Awaken Your Passion</h2>
                      <p className="sec-text text-title">Choose the one who’s ready to share your most intimate desires — without limits or restrictions.</p>
                   </div>
                   <Link href="/contact" className="btn btn3">

@@ -132,7 +132,7 @@ const Testimonia = () => {
                <div className="col-lg-8">
                   <div className="section-title text-center mb-50">
                      <span className="sub-title">User Reviews:</span>
-                     <h2 className="title style2">Try what thousands have already experienced</h2>
+                     <h2 className="title style2">Try What Thousands Have Already Experienced</h2>
                   </div>
                </div>
             </div>

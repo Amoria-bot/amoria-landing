@@ -7,6 +7,7 @@ import icon_1 from "@/assets/img/update/icon/feature-icon1-1.svg"
 import icon_2 from "@/assets/img/update/icon/feature-icon1-2.svg"
 import icon_3 from "@/assets/img/update/icon/feature-icon1-3.svg"
 import team_2 from "@/assets/img/update/team/team-1-2.png";
+import Link from "next/link";
 
 interface DataType {
    id: number;
@@ -86,34 +87,34 @@ const ChooseArea = () => {
                <div className="row gy-5">
                   <div className="col-lg-7">
                      <div className="section-title mb-0">
-                        <h2 className="title style2">Your fantasies — without limits</h2>
+                        <h2 className="title style2">Your Fantasies — Without Limits</h2>
                         <p className="sec-text">In Amoria, you’ll find characters who understand and embrace your every desire. Forget shyness — here, you’ll experience honest conversations, the freedom to express yourself, and the chance to see your companion the way you want.
                         </p>
                      </div>
                   </div>
                   <div className="col-lg-5">
-                     <div className="wcu-thumb text-center alltuchtopdown">
+                     <div className="wcu-thumb text-center alltuchtopdown ">
                         <Image src={choose_thumb_2} alt="img" />
                      </div>
                   </div>
                </div>
             </div>
             <div className="row gy-5 justify-content-between">
-               <div className="col-lg-5 ">
-                  <Image className="feature-card-image" src={team_2} alt="Team Image" />
+               <div className="col-lg-6 ">
+                  <Image className="chose-area-image feature-card-image" width={184} height={212} src={team_2} alt="Team Image"/>
                </div>
                <div className="col-lg-6">
                   {choose_data.map((item) => (
-                     <div key={item.id} className="feature-card">
-                        <div className="feature-card-icon">
-                           <Image src={item.icon} alt="img" />
-                        </div>
-                        <div className="feature-card-details">
-                           <h4 className="feature-card-title">{item.title}</h4>
-                           {item.price && <p className="feature-card-text">{item.price} $</p>}
-                           <p className="feature-card-text">{item.desc}</p>
-                        </div>
-                     </div>
+                      <div key={item.id} className="feature-card">
+                         <div className="feature-card-icon">
+                            <Image src={item.icon} alt="img"/>
+                         </div>
+                         <div className="feature-card-details">
+                            <h4 className="feature-card-title">{item.title}</h4>
+                            {item.price && <p className="feature-card-text">{item.price} $</p>}
+                            <p className="feature-card-text">{item.desc}</p>
+                         </div>
+                      </div>
                   ))}
                </div>
 

@@ -26,12 +26,12 @@ const Hero = () => {
                      </div>
                   </div>
                   <div className="col-lg-9">
-                     <h1 className="hero-title">Bold conversations without boundaries</h1>
-                     <h2 className="hero-subtitle">A place for honest conversations and new emotions. Choose a companion to your liking.
-                     </h2>
+                     <h1>Candid Conversations Without Boundaries</h1>
+                     <p className="sec-text">Discover Amoria — the platform for intimate and honest dialogues. Choose unique AI-generated companions, explore your desires, and dive into conversations where there are no limits. Completely confidential, only for users 18 and older.
+                     </p>
                      <div className="btn-wrap">
                         <Link href="/contact" className="btn btn2">
-                           Start an intimate dialogue &nbsp;<i className="fab fa-telegram-plane"></i>
+                           Start an intimate dialogue &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;<i className="fab fa-telegram-plane telegram-icon"></i>
                         </Link>
                      </div>
                   </div>
@@ -41,7 +41,7 @@ const Hero = () => {
             <div className="hero-countdown-wrap">
                <h2 className="hero-countdown-wrap-title">Amoria: the atmosphere for daring conversations
                </h2>
-               <h3 className="hero-content">Choose who to talk to: from light flirting to the most revealing topics. Characters are ready to share not only their thoughts but also their photos, including their most personal ones.</h3>
+               <p className="sec-text">Choose who to talk to: from light flirting to the most revealing topics. Characters are ready to share not only their thoughts but also their photos, including their most personal ones.</p>
             </div>
          </div>
       </div>

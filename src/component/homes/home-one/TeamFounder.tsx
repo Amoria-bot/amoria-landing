@@ -80,8 +80,8 @@ const TeamFounder = () => {
          <div className="container">
             <div className="section-title text-center mb-50">
                <h2 className="title style2">Those ready to share your desires</h2>
-               <h3 className="hero-subtitle style2">Each companion is something special: a unique style, character, and secrets. Choose the one who attracts you the most and start an exciting dialogue right now.
-               </h3>
+               <p className="sec-text">Each companion is something special: a unique style, character, and secrets. Choose the one who attracts you the most and start an exciting dialogue right now.
+               </p>
             </div>
             <div className="row gy-4 justify-content-center">
                {founder_data.map((item) => (

@@ -10,24 +10,26 @@ import PartnerArea from "./PartnerArea"
 import Team from "./Team"
 import RoadMap from "./RoadMap"
 import HeaderOne from "@/layouts/headers/HeaderOne"
+import Testimonia from "@/component/homes/home-two/Testimonia";
 
 const HomeOne = () => {
-  return (
-    <div className="home-purple-gradient">
-      <HeaderOne />
-      <Hero />
-      <Brand />
-      <ChooseArea />
-      <IntroArea />
-      <RoadMap />
-      <InvestArea />
-      <Team />
-      <PartnerArea />
-      <EventArea />
-      <FaqArea />
-      <FooterOne />
-    </div>
-  )
+    return (
+        <div className="home-purple-gradient">
+            <HeaderOne/>
+            <Hero/>
+            <ChooseArea/>
+            {/*<IntroArea />*/}
+            {/*<RoadMap />*/}
+            {/*<InvestArea />*/}
+            <Team/>
+            {/*<PartnerArea />*/}
+            {/*<EventArea />*/}
+            <FaqArea/>
+            <Testimonia/>
+            <Brand/>
+            <FooterOne/>
+        </div>
+    )
 }
 
 export default HomeOne
