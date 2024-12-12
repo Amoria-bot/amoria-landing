@@ -37,6 +37,18 @@ const faq_data:DataType[]=[
       desc:"Choose the one who attracts you the most: her photos, character, and style will help you decide.",
    },
    {
+      id:6,
+      page:"home_1",
+      title:"What if I want to switch to another companion?",
+      desc:"You can return to the character gallery at any time, select a new companion, and start a dialogue with her.",
+   },
+   {
+      id:7,
+      page:"home_1",
+      title:"How is the privacy of my conversations ensured?",
+      desc:"All conversations are completely anonymous and secure. Your data is never shared with third parties, and your chats remain between you and the character.",
+   },
+   {
       id:1,
       page:"home_2",
       title:"What is blockchain technology?",
