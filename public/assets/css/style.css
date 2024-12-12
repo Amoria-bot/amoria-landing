@@ -3188,7 +3188,8 @@ label {
     content: '';
     position: absolute;
     background: linear-gradient(to top, #6B589B, transparent 30%);
-    filter: blur(100px);
+	top: 100px;
+    filter: blur(200px);
     inset: 0;
 }
 .bg-gradient-1 img {
@@ -5895,7 +5896,7 @@ label {
 
   /* CTA Area 3 ---------------------------------- */
   .cta-wrap3 {
-    background: #7136B8 0%;
+    background: var(--tg-primary-color);
     border-radius: 25px;
     display: flex;
     justify-content: space-between;

@@ -10,7 +10,7 @@ import team_bg from "@/assets/img/update/bg/bg-gradient1-1.jpg"
 const Team = () => {
 
    return (
-      <div className="pt-130 pb-140 overflow-hidden position-relative z-index-common">
+      <div className="wcu-area-1 pt-130 pb-140 position-relative">
          <div className="bg-gradient-1">
             <Image src={team_bg} alt="img" />
          </div>

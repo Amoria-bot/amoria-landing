@@ -11,6 +11,7 @@ import Team from "./Team"
 import RoadMap from "./RoadMap"
 import HeaderOne from "@/layouts/headers/HeaderOne"
 import Testimonia from "@/component/homes/home-two/Testimonia";
+import CtaAreaTwo from "@/component/homes/home-two/CtaAreaTwo";
 
 const HomeOne = () => {
     return (
@@ -24,6 +25,7 @@ const HomeOne = () => {
             <Team/>
             {/*<PartnerArea />*/}
             {/*<EventArea />*/}
+            <CtaAreaTwo />
             <FaqArea/>
             <Testimonia/>
             <Brand/>
