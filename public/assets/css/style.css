@@ -169,7 +169,7 @@ h6 a {
 	color: inherit;
 }
 h1 {
-	font-size: 3.25rem;
+	font-size: 3rem;
 }
 h2 {
 	font-size: 2rem;
@@ -349,6 +349,7 @@ label {
 /* scrollUp */
 .scroll-top {
 	padding: 0 10px 0 10px;
+	right: 30px;
     position: fixed;
     font-size: var(--tg-body-font-size);
     border-radius: 6px;
