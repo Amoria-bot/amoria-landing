@@ -76,7 +76,7 @@ const founder_data: DataType[] = [
 
 const TeamFounder = () => {
    return (
-      <div className="pb-110">
+      <div className="pb-60">
          <div className="container">
             <div className="section-title text-center mb-50">
                <h2 className="title style2">Those ready to share your desires</h2>

@@ -5,7 +5,7 @@ import ctaThumb from "@/assets/img/update/normal/cta_3-1.png";
 
 const CtaAreaTwo = () => {
    return (
-      <div className="pb-120 position-relative z-index-common">
+      <div className="pb-60 pt-60 position-relative z-index-common">
          <div className="container">
             <div className="cta-wrap3">
                <div className="cta-wrap-details">
@@ -13,7 +13,7 @@ const CtaAreaTwo = () => {
                      <h2 className="title style2 text-title">Daring Conversations to Awaken Your Passion</h2>
                      <p className="sec-text text-title">Choose the one who’s ready to share your most intimate desires — without limits or restrictions.</p>
                   </div>
-                  <Link href="/contact" className="btn btn3">
+                  <Link href="/contact" className="btn btn-two">
                      Start an intimate dialogue
                   </Link>
                </div>

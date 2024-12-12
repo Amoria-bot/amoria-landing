@@ -5,7 +5,7 @@ import footer_bg from "@/assets/img/update/bg/bg-gradient1-1.jpg";
 
 const FooterOne = () => {
    return (
-      <footer className="footer-wrapper footer-layout1 position-relative mt-100">
+      <footer className="footer-wrapper footer-layout1 position-relative mt-60">
          <div className="bg-gradient-1">
             <Image src={footer_bg} alt="img" />
          </div>

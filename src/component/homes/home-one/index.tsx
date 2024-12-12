@@ -19,15 +19,10 @@ const HomeOne = () => {
             <HeaderOne/>
             <Hero/>
             <ChooseArea/>
-            {/*<IntroArea />*/}
-            {/*<RoadMap />*/}
-            {/*<InvestArea />*/}
             <Team/>
-            {/*<PartnerArea />*/}
-            {/*<EventArea />*/}
-            <CtaAreaTwo />
-            <FaqArea/>
             <Testimonia/>
+            <FaqArea/>
+            <CtaAreaTwo />
             <Brand/>
             <FooterOne/>
         </div>

@@ -57,30 +57,34 @@ const choose_data: DataType2[] = [
    {
       id: 1,
       icon: icon_1,
-      title: "The expected value of your investment",
-      price: "180,000",
-      desc: "ROI = 360 %",
+      title: "Find someone who shares your fantasies",
+      desc: "Courage and passion",
    },
    {
       id: 2,
       icon: icon_2,
-      title: "Expected monthly dividend",
-      desc: "3600 FOX = 1296 $",
+      title: "See what your companion looks like even without clothes",
+      desc: "Desire and temptation",
    },
    {
       id: 3,
       icon: icon_3,
-      title: "Masternode bonus",
-      price: "180,000",
-      desc: "ROI = 360 %",
+      title: "Dive into dialogues without forbidden topics",
+      desc: "Honesty and thrill",
+   },
+   {
+      id: 4,
+      icon: icon_1,
+      title: "Express your desires freely and without judgment",
+      desc: "Trust and liberation",
    },
 ]
 
 const ChooseArea = () => {
    return (
-      <div className="wcu-area-1 pt-130 pb-140 position-relative" id="feature">
-         <div className="bg-gradient-1">
-            <Image src={choose_thumb_1} alt="img" />
+      <div className="wcu-area-1 pt-60 pb-60 position-relative" id="feature">
+         <div className="">
+            {/*<Image src={choose_thumb_1} alt="img" />*/}
          </div>
          <div className="container">
             <div className="mb-25">
@@ -93,15 +97,15 @@ const ChooseArea = () => {
                      </div>
                   </div>
                   <div className="col-lg-5">
-                     <div className="wcu-thumb text-center alltuchtopdown ">
+                     <div className="d-sm-none d-lg-block text-center alltuchtopdown ">
                         <Image src={choose_thumb_2} alt="img" />
                      </div>
                   </div>
                </div>
             </div>
             <div className="row gy-5 justify-content-between">
-               <div className="col-lg-6 ">
-                  <Image className="chose-area-image feature-card-image" width={184} height={212} src={team_2} alt="Team Image"/>
+               <div className="col-lg-6 alltuchtopdown">
+                  <Image className="chose-area-image" width={184} height={212} src={team_2} alt="Team Image"/>
                </div>
                <div className="col-lg-6">
                   {choose_data.map((item) => (
@@ -111,7 +115,6 @@ const ChooseArea = () => {
                          </div>
                          <div className="feature-card-details">
                             <h4 className="feature-card-title">{item.title}</h4>
-                            {item.price && <p className="feature-card-text">{item.price} $</p>}
                             <p className="feature-card-text">{item.desc}</p>
                          </div>
                       </div>

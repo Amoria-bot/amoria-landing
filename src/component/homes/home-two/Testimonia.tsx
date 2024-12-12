@@ -126,7 +126,7 @@ const Testimonia = () => {
    };
 
    return (
-      <div className="pb-140 overflow-hidden">
+      <div className="pb-60 pt-60 overflow-hidden">
          <div className="container">
             <div className="row justify-content-center">
                <div className="col-lg-8">

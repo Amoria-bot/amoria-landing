@@ -3887,8 +3887,6 @@ label {
 .chose-area-image {
 	border-radius: 15px;
 	width: 575px;
-	display: inline-block;
-	transition: transform 0.3s ease-in-out;
 }
 
 .chose-area-image:hover {

@@ -54,49 +54,5 @@ const menu_data: MenuItem[] = [
         title: "Start Now",
         link: "/contact",
     },
-    
-    {
-        id: 1,
-        page:"nav_2",
-        has_dropdown: true,
-        title: "Home",
-        link: "#",
-        sub_menus: [
-            { link: "/", title: "ICO Investment" },
-            { link: "/home-two", title: "Blockchain", },
-        ],
-    },
-    {
-        id: 2,
-        page:"nav_2",
-        has_dropdown: false,
-        title: "Why Blockchain",
-        link: "/home-two/#blockchain",
-    },
-    {
-        id: 3,
-        page:"nav_2",
-        has_dropdown: false,
-        title: "Feature",
-        link: "/home-two/#feature",
-    },
-    {
-        id: 4,
-        page:"nav_2",
-        has_dropdown: true,
-        title: "Blog",
-        link: "#",
-        sub_menus: [
-            { link: "/blog", title: "Our Blog" },
-            { link: "/blog-details", title: "Blog-Details", },
-        ],
-    },
-    {
-        id: 5,
-        page:"nav_2",
-        has_dropdown: false,
-        title: "Contact",
-        link: "/contact",
-    },
 ];
 export default menu_data;

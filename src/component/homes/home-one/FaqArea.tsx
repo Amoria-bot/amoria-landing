@@ -6,7 +6,7 @@ import faq_thumb_1 from "@/assets/img/update/normal/faq_1-1.png";
 const FaqArea = () => {
    
    return (
-      <div className="pt-140 pb-140 overflow-hidden">
+      <div className="pt-60 pb-60 overflow-hidden">
          <div className="container">
             <div className="row gy-40 justify-content-between">
                <div className="col-xl-4 text-xl-start">
