@@ -169,7 +169,7 @@ h6 a {
 	color: inherit;
 }
 h1 {
-	font-size: 4rem;
+	font-size: 3.5rem;
 }
 h2 {
 	font-size: 2rem;
@@ -348,12 +348,8 @@ label {
 
 /* scrollUp */
 .scroll-top {
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
+	padding: 0 10px 0 10px;
     position: fixed;
-    bottom: -10%;
-    right: 30px;
     font-size: var(--tg-body-font-size);
     border-radius: 6px;
     z-index: 99;
@@ -377,9 +373,6 @@ label {
 	width: 90%;
 	opacity: 1;
 	background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
-}
-.scroll-top:hover {
-	background: var(--tg-secondary-color);
 }
 
 
@@ -3888,11 +3881,6 @@ label {
 	border-radius: 15px;
 	width: 575px;
 }
-
-.chose-area-image:hover {
-	transform: scale(1.05);
-}
-
 
 /*skill-feature**************/
 .skill-feature {

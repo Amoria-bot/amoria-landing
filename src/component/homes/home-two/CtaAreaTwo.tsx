@@ -5,7 +5,7 @@ import ctaThumb from "@/assets/img/update/normal/cta_3-1.png";
 
 const CtaAreaTwo = () => {
    return (
-      <div className="pb-60 pt-60 position-relative z-index-common">
+      <div className="pb-60 pt-60 position-relative z-index-common" id="startnow">
          <div className="container">
             <div className="cta-wrap3">
                <div className="cta-wrap-details">

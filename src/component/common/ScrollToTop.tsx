@@ -34,7 +34,7 @@ const ScrollToTop = () => {
 
    return (
       <>
-         <button onClick={scrollTop} className={`scroll-top scroll-to-target text-center ${sticky ? "open" : ""}`}>
+         <button onClick={scrollTop} className={`scroll-top ${sticky ? "open" : ""}`}>
             <i className="fas fa-angle-up"></i>
          </button>
       </>

@@ -20,7 +20,7 @@ const testi_data: DataType[] = [
    {
       id: 1,
       avatar: avatar_1,
-      title: "Romero Eli",
+      title: "James",
       designation: "Developer",
       des: (<>Amoria is a place where you can talk openly, without pretense or limits. I’ve found here what I’ve been looking for.</>),
       rating: ["fas fa-star", "fas fa-star", "fas fa-star", "fas fa-star", "fas fa-star",],
@@ -28,7 +28,7 @@ const testi_data: DataType[] = [
    {
       id: 2,
       avatar: avatar_2,
-      title: "Gomez Goles",
+      title: "William",
       designation: "Product Designers",
       des: (<>Every conversation here is a challenge. The characters aren’t just companions; they know how to captivate and hold your attention.</>),
       rating: ["fas fa-star", "fas fa-star", "fas fa-star", "fas fa-star", "fas fa-star",],
@@ -36,7 +36,7 @@ const testi_data: DataType[] = [
    {
       id: 3,
       avatar: avatar_1,
-      title: "Romero Eli",
+      title: "Oliver",
       designation: "Developer",
       des: (<>Everything in Amoria is completely honest: you speak, they respond. And no matter how open you’re willing to be — here, it’s normal.</>),
       rating: ["fas fa-star", "fas fa-star", "fas fa-star", "fas fa-star", "fas fa-star",],
@@ -44,7 +44,7 @@ const testi_data: DataType[] = [
    {
       id: 4,
       avatar: avatar_2,
-      title: "Gomez Goles",
+      title: "Benjamin",
       designation: "Product Designers",
       des: (<>I love that there’s no censorship or pretense. Conversations with the characters are engaging and ignite interest.</>),
       rating: ["fas fa-star", "fas fa-star", "fas fa-star", "fas fa-star", "fas fa-star",],
@@ -52,7 +52,7 @@ const testi_data: DataType[] = [
    {
       id: 4,
       avatar:avatar_1,
-      title: "Romero Eli",
+      title: "Henry",
       designation: "Developer",
       des: (<>Amoria surprises with its simplicity and honesty. It’s a place where I can allow myself more.</>),
       rating: ["fas fa-star", "fas fa-star", "fas fa-star", "fas fa-star", "fas fa-star",],
@@ -126,12 +126,11 @@ const Testimonia = () => {
    };
 
    return (
-      <div className="pb-60 pt-60 overflow-hidden">
+      <div className="pb-60 pt-60 overflow-hidden" id="reviews">
          <div className="container">
             <div className="row justify-content-center">
                <div className="col-lg-8">
                   <div className="section-title text-center mb-50">
-                     <span className="sub-title">User Reviews:</span>
                      <h2 className="title style2">Try What Thousands Have Already Experienced</h2>
                   </div>
                </div>
@@ -156,7 +155,7 @@ const Testimonia = () => {
                                  </div>
                                  <div className="testi-box-profile-details">
                                     <h4 className="testi-box_name">{item.title}</h4>
-                                    <span className="testi-box_desig">{item.designation}</span>
+                                    <span className="testi-box_desig">User</span>
                                  </div>
                                  <div className="testi-box-profile-ratting">
                                     {item.rating.map((rat, i) => (

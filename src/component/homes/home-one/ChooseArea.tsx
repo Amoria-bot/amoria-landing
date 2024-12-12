@@ -82,7 +82,7 @@ const choose_data: DataType2[] = [
 
 const ChooseArea = () => {
    return (
-      <div className="wcu-area-1 pt-60 pb-60 position-relative" id="feature">
+      <div className="wcu-area-1 pt-60 pb-60 position-relative" id="features">
          <div className="">
             {/*<Image src={choose_thumb_1} alt="img" />*/}
          </div>
@@ -97,7 +97,7 @@ const ChooseArea = () => {
                      </div>
                   </div>
                   <div className="col-lg-5">
-                     <div className="d-sm-none d-lg-block text-center alltuchtopdown ">
+                     <div className="d-none d-lg-block text-center alltuchtopdown ">
                         <Image src={choose_thumb_2} alt="img" />
                      </div>
                   </div>
