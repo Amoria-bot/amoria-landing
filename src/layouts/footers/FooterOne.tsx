@@ -37,27 +37,27 @@ const FooterOne = () => {
                            </Link>
                         </li>
                         <li>
-                           <Link href="#">
+                           <Link href="#features">
                               FEATURES
                            </Link>
                         </li>
                         <li>
-                           <Link href="#">
+                           <Link href="#characters">
                               CHARACTERS
                            </Link>
                         </li>
                         <li>
-                           <Link href="#">
+                           <Link href="#reviews">
                               REVIEWS
                            </Link>
                         </li>
                         <li>
-                           <Link href="#">
+                           <Link href="#faq">
                               FAQ
                            </Link>
                         </li>
                         <li>
-                           <Link href="#">
+                           <Link href="#startnow">
                               START NOW
                            </Link>
                         </li>
