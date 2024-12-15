@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 
-import hero_thumb from "@/assets/img/update/hero/hero-1-1.jpg"
+import hero_thumb from "@/assets/img/update/hero/hero-1.png"
 import CountdownClock from "@/ui/CountDownClock"
 
 const Hero = () => {
@@ -20,28 +20,46 @@ const Hero = () => {
          <div className="container">
             <div className="hero-style1">
                <div className="row flex-row-reverse">
-                  <div className="col-lg-3">
-                     <div className="hero-thumb alltuchtopdown">
-                        <Image src={hero_thumb} alt="img" />
+                  {/* Верхня картинка для великих екранів */}
+                  <div className="col-lg-5 hero-image-large">
+                     <div className="hero-thumb">
+                        <Image src={hero_thumb} alt="img" style={{transform: 'scale(1.4)'}}/>
                      </div>
                   </div>
-                  <div className="col-lg-9">
+
+                  {/* Основний текстовий контент */}
+                  <div className="col-lg-7">
                      <h1>Candid Conversations Without Boundaries</h1>
-                     <p className="sec-text">Discover Amoria — the platform for intimate and honest dialogues. Choose unique AI-generated companions, explore your desires, and dive into conversations where there are no limits. Completely confidential, only for users 18 and older.
+                     <p className="sec-text">
+                        Discover Amoria — the platform for intimate and honest dialogues. Choose unique AI-generated
+                        companions,
+                        explore your desires, and dive into conversations where there are no limits. Completely
+                        confidential, only
+                        for users 18 and older.
                      </p>
                      <div className="btn-wrap">
-                        <Link href="/contact" className="btn btn2">
-                           Start an intimate dialogue &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;<i className="fab fa-telegram-plane telegram-icon"></i>
+                        <Link href="https://t.me/AmoriaChat_bot" className="btn btn2">
+                           Start an intimate dialogue &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;<i
+                            className="fab fa-telegram-plane telegram-icon"></i>
                         </Link>
                      </div>
                   </div>
 
+                  {/* Нижня картинка для малих екранів */}
+                  <div className="col-lg-5 hero-image-small mt-150">
+                     <div className="hero-thumb">
+                        <Image src={hero_thumb} alt="img" style={{transform: 'scale(1.4)'}}/>
+                     </div>
+                  </div>
                </div>
             </div>
+
             <div className="hero-countdown-wrap">
                <h2 className="hero-countdown-wrap-title">Amoria: the atmosphere for daring conversations
                </h2>
-               <p className="sec-text">Choose who to talk to: from light flirting to the most revealing topics. Characters are ready to share not only their thoughts but also their photos, including their most personal ones.</p>
+               <p className="sec-text">Choose who to talk to: from light flirting to the most revealing topics.
+                  Characters are ready to share not only their thoughts but also their photos, including their most
+                  personal ones.</p>
             </div>
          </div>
       </div>

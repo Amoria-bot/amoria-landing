@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 
-import ctaThumb from "@/assets/img/update/normal/cta_3-1.png";
+import ctaThumb from "@/assets/img/update/normal/cta_3.png";
 
 const CtaAreaTwo = () => {
    return (
@@ -13,12 +13,12 @@ const CtaAreaTwo = () => {
                      <h2 className="title style2 text-title">Daring Conversations to Awaken Your Passion</h2>
                      <p className="sec-text text-title">Choose the one who’s ready to share your most intimate desires — without limits or restrictions.</p>
                   </div>
-                  <Link href="/contact" className="btn btn-two">
+                  <Link href="https://t.me/AmoriaChat_bot" className="btn btn-two">
                      Start an intimate dialogue
                   </Link>
                </div>
                <div className="cta-3-thumb movingX">
-                  <Image src={ctaThumb} alt="img" />
+                  <Image className="" src={ctaThumb} alt="img" style={{ transform: 'scale(1.5)' }} />
                </div>
             </div>
          </div>

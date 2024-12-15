@@ -4,8 +4,7 @@ import React, { useRef } from "react";
 import Image, { StaticImageData } from "next/image"
 
 import testi_bg from "@/assets/img/update/bg/testimonial-4-bg.png"
-import avatar_1 from "@/assets/img/update/testimonial/testi_thumb1_1.png"
-import avatar_2 from "@/assets/img/update/testimonial/testi_thumb1_2.png"
+import avatar from "@/assets/img/update/testimonial/testi_thumb.png"
 
 interface DataType {
    id: number;
@@ -19,7 +18,7 @@ interface DataType {
 const testi_data: DataType[] = [
    {
       id: 1,
-      avatar: avatar_1,
+      avatar: avatar,
       title: "James",
       designation: "Developer",
       des: (<>Amoria is a place where you can talk openly, without pretense or limits. I’ve found here what I’ve been looking for.</>),
@@ -27,7 +26,7 @@ const testi_data: DataType[] = [
    },
    {
       id: 2,
-      avatar: avatar_2,
+      avatar: avatar,
       title: "William",
       designation: "Product Designers",
       des: (<>Every conversation here is a challenge. The characters aren’t just companions; they know how to captivate and hold your attention.</>),
@@ -35,7 +34,7 @@ const testi_data: DataType[] = [
    },
    {
       id: 3,
-      avatar: avatar_1,
+      avatar: avatar,
       title: "Oliver",
       designation: "Developer",
       des: (<>Everything in Amoria is completely honest: you speak, they respond. And no matter how open you’re willing to be — here, it’s normal.</>),
@@ -43,7 +42,7 @@ const testi_data: DataType[] = [
    },
    {
       id: 4,
-      avatar: avatar_2,
+      avatar: avatar,
       title: "Benjamin",
       designation: "Product Designers",
       des: (<>I love that there’s no censorship or pretense. Conversations with the characters are engaging and ignite interest.</>),
@@ -51,7 +50,7 @@ const testi_data: DataType[] = [
    },
    {
       id: 4,
-      avatar:avatar_1,
+      avatar:avatar,
       title: "Henry",
       designation: "Developer",
       des: (<>Amoria surprises with its simplicity and honesty. It’s a place where I can allow myself more.</>),

@@ -3,9 +3,10 @@ import Image, { StaticImageData } from "next/image";
 import choose_thumb_1 from "@/assets/img/update/bg/bg-gradient1-1.jpg"
 import choose_thumb_2 from "@/assets/img/update/normal/why_1-1.png"
 
-import icon_1 from "@/assets/img/update/icon/feature-icon1-1.svg"
-import icon_2 from "@/assets/img/update/icon/feature-icon1-2.svg"
-import icon_3 from "@/assets/img/update/icon/feature-icon1-3.svg"
+import icon_1 from "@/assets/img/update/icon/1.png"
+import icon_2 from "@/assets/img/update/icon/2.png"
+import icon_3 from "@/assets/img/update/icon/3.png"
+import icon_4 from "@/assets/img/update/icon/4.png"
 import team_2 from "@/assets/img/update/team/team-1-2.png";
 import Link from "next/link";
 
@@ -74,7 +75,7 @@ const choose_data: DataType2[] = [
    },
    {
       id: 4,
-      icon: icon_1,
+      icon: icon_4,
       title: "Express your desires freely and without judgment",
       desc: "Trust and liberation",
    },
@@ -87,31 +88,20 @@ const ChooseArea = () => {
             {/*<Image src={choose_thumb_1} alt="img" />*/}
          </div>
          <div className="container">
-            <div className="mb-25">
-               <div className="row gy-5">
-                  <div className="col-lg-7">
-                     <div className="section-title mb-0">
-                        <h2 className="title style2">Your Fantasies — Without Limits</h2>
-                        <p className="sec-text">In Amoria, you’ll find characters who understand and embrace your every desire. Forget shyness — here, you’ll experience honest conversations, the freedom to express yourself, and the chance to see your companion the way you want.
-                        </p>
-                     </div>
-                  </div>
-                  <div className="col-lg-5">
-                     <div className="d-none d-lg-block text-center alltuchtopdown ">
-                        <Image src={choose_thumb_2} alt="img" />
-                     </div>
-                  </div>
-               </div>
+            <div className="section-title text-center mb-50">
+               <h2 className="title style2">Your Fantasies — Without Limits</h2>
+               <p className="sec-text">In Amoria, you’ll find characters who understand and embrace your every desire. Forget shyness — here, you’ll experience honest conversations, the freedom to express yourself, and the chance to see your companion the way you want.
+               </p>
             </div>
             <div className="row gy-5 justify-content-between">
-               <div className="col-lg-6 alltuchtopdown">
-                  <Image className="chose-area-image" width={184} height={212} src={team_2} alt="Team Image"/>
+               <div className="col-lg-6" style={{ height: '800px' }}>
+                  <Image className="chose-area-image" src={team_2} alt="Team Image" style={{ transform: 'scale(2.4)' }}/>
                </div>
                <div className="col-lg-6">
                   {choose_data.map((item) => (
                       <div key={item.id} className="feature-card">
                          <div className="feature-card-icon">
-                            <Image src={item.icon} alt="img"/>
+                            <Image src={item.icon} alt="img" />
                          </div>
                          <div className="feature-card-details">
                             <h4 className="feature-card-title">{item.title}</h4>

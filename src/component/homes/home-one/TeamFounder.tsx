@@ -1,8 +1,15 @@
 import Image, { StaticImageData } from "next/image"
 import Link from "next/link"
 
-import founder_thumb_1 from "@/assets/img/update/team/founder-1-1.png"
-import founder_thumb_2 from "@/assets/img/update/team/founder-1-2.png"
+import character_1 from "@/assets/img/update/team/character-1.png"
+import character_2 from "@/assets/img/update/team/character-2.png"
+import character_3 from "@/assets/img/update/team/character-3.jpg"
+import character_4 from "@/assets/img/update/team/character-4.png"
+import character_5 from "@/assets/img/update/team/character-5.png"
+import character_6 from "@/assets/img/update/team/character-6.png"
+import character_7 from "@/assets/img/update/team/character-7.png"
+import character_8 from "@/assets/img/update/team/character-8.png"
+
 
 interface DataType {
    id: number;
@@ -14,63 +21,51 @@ interface DataType {
 const founder_data: DataType[] = [
    {
       id: 1,
-      thumb: founder_thumb_1,
-      title: "Alice",
-      designasion: "a passionate dreamer, ready to support any of your fantasies",
+      thumb: character_1,
+      title: "Alexa Starfire",
+      designasion: "A passionate dreamer, ready to embrace any of your fantasies.",
    },
    {
       id: 2,
-      thumb: founder_thumb_2,
-      title: "Aliceo",
-      designasion: "a passionate dreamer, ready to support any of your fantasies",
+      thumb: character_2,
+      title: "Camilla Storm",
+      designasion: "A refined conversationalist who knows how to turn a chat into an art form.",
    },
    {
       id: 3,
-      thumb: founder_thumb_1,
-      title: "Aliceo",
-      designasion: "a passionate dreamer, ready to support any of your fantasies",
+      thumb: character_3,
+      title: "Selena Frost",
+      designasion: "A playful flirt, always ready to add a spark to any conversation.",
    },
    {
       id: 4,
-      thumb: founder_thumb_2,
-      title: "Aliceo",
-      designasion: "a passionate dreamer, ready to support any of your fantasies",
+      thumb: character_4,
+      title: "Diana Velvet",
+      designasion: "A mysterious romantic soul, waiting to share her secrets with you.",
    },
    {
       id: 5,
-      thumb: founder_thumb_1,
-      title: "Aliceo",
-      designasion: "a passionate dreamer, ready to support any of your fantasies",
+      thumb: character_5,
+      title: "Lana Gold",
+      designasion: "A bold coquette who knows how to make every moment unforgettable.",
    },
    {
       id: 6,
-      thumb: founder_thumb_2,
-      title: "Aliceo",
-      designasion: "a passionate dreamer, ready to support any of your fantasies",
+      thumb: character_6,
+      title: "Ruby Nightingale",
+      designasion: "A confident beauty, capable of captivating at first glance.",
    },
    {
       id: 7,
-      thumb: founder_thumb_1,
-      title: "Aliceo",
-      designasion: "a passionate dreamer, ready to support any of your fantasies",
+      thumb: character_7,
+      title: "Selena Frost",
+      designasion: "A sensitive dreamer, ready to listen and support you in any situation.",
    },
    {
       id: 8,
-      thumb: founder_thumb_2,
-      title: "Aliceo",
-      designasion: "a passionate dreamer, ready to support any of your fantasies",
-   },
-   {
-      id: 9,
-      thumb: founder_thumb_1,
-      title: "Aliceo",
-      designasion: "a passionate dreamer, ready to support any of your fantasies",
-   },
-   {
-      id: 10,
-      thumb: founder_thumb_2,
-      title: "Aliceo",
-      designasion: "a passionate dreamer, ready to support any of your fantasies",
+      thumb: character_8,
+      title: "Sophie Snow",
+      designasion: "A vibrant adventurer who can turn any conversation into a true adventure.",
    },
 ]
 
@@ -88,13 +83,13 @@ const TeamFounder = () => {
                   <div key={item.id} className="col-lg-6">
                      <div className="founder-card">
                         <div className="founder-card-img">
-                           <Image src={item.thumb} alt="img" />
+                           <Image className="" src={item.thumb} alt="img" />
                         </div>
                         <div className="founder-card-details">
                            <h3 className="founder-card-title">{item.title}</h3>
                            <p className="founder-card-desig">{item.designasion}</p>
                            <div className="">
-                              <Link href="/contact" className="btn btn2" >
+                              <Link href="https://t.me/AmoriaChat_bot" className="btn btn2" >
                                  Start dialogue
                               </Link>
                            </div>
