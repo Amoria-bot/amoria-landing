@@ -57,7 +57,7 @@ const TermsOfService: React.FC = () => {
                 ))}
             </div>
         </div>
-    );ф
+    );
 };
 
 export default TermsOfService;
