@@ -1309,7 +1309,7 @@ label {
 	08. Brand
 ===============================*/
 .brand-title {
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 .brand-title .title {
     display: inline-block;
@@ -3479,7 +3479,7 @@ label {
     animation-delay: 8s;
 }
 .hero-1 .hero-thumb {
-    margin-top: -23px;
+    margin-top: -40px;
 }
 @keyframes ripple {
     0% {
@@ -3878,18 +3878,18 @@ label {
 
 /* Brand area 2 ---------------------------------- */
 .brand-item-wrap.style2:after {
-    content: "";
-    display: inline-block;
-    position: absolute;
-    width: 33px;
-    height: 33px;
-    background: transparent;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    border-left: 1px solid rgba(255, 255, 255, 0.1);
-    transform: rotate(45deg) translate(-50%, 50%);
-    left: 50%;
-    top: -17px;
-    z-index: 1;
+    /*content: "";*/
+    /*display: inline-block;*/
+    /*!*position: absolute;*!*/
+    /*width: 33px;*/
+    /*height: 33px;*/
+	/*background: transparent;*/
+    /*border-top: 1px solid rgba(255, 255, 255, 0.1);*/
+    /*border-left: 1px solid rgba(255, 255, 255, 0.1);*/
+    /*!*transform: rotate(45deg) translate(-50%, 50%);*!*/
+    /*left: 50%;*/
+    /*top: -17px;*/
+    /*z-index: 1;*/
 }
 .brand-item-wrap.style2:before {
     display: none;
@@ -5932,9 +5932,6 @@ label {
     }
     .cta-wrap3 .cta-wrap-details {
       padding: 60px;
-    }
-    .cta-wrap3 .cta-3-thumb {
-      margin-top: -20px;
     }
   }
   @media (max-width: 991px) {

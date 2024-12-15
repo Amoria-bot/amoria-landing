@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 
-import ctaThumb from "@/assets/img/update/normal/cta_3.png";
+import ctaThumb from "@/assets/img/update/normal/cta.png";
 
 const CtaAreaTwo = () => {
    return (
@@ -21,8 +21,8 @@ const CtaAreaTwo = () => {
                      Start an intimate dialogue
                   </Link>
                </div>
-               <div className="cta-3-thumb movingX">
-                  <Image className="" src={ctaThumb} alt="img" style={{transform: 'scale(1.25)'}}/>
+               <div className="cta-3-thumb">
+                  <Image className="" src={ctaThumb} alt="img" style={{transform: 'scale(1.2)'}}/>
                </div>
             </div>
 

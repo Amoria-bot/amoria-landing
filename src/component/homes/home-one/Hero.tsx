@@ -22,7 +22,7 @@ const Hero = () => {
                <div className="row flex-row-reverse">
                   <div className="col-lg-5 hero-image-large">
                      <div className="hero-thumb">
-                        <Image src={hero_thumb} alt="img" style={{transform: 'scale(1.4)'}}/>
+                        <Image src={hero_thumb} alt="img" style={{transform: 'scale(1.5)'}}/>
                      </div>
                   </div>
                   <div className="col-lg-7">
@@ -43,12 +43,12 @@ const Hero = () => {
                   </div>
                </div>
             </div>
-            <div className="col-lg-5 hero-image-small mt-20 pl-30">
-               <div className="hero-thumb d-flex justify-content-center" style={{overflow: 'hidden'}}>
+            <div className="col-lg-5 hero-image-small mt-20 pl-50">
+               <div className="hero-thumb d-flex justify-content-center pt-80 pb-50" style={{overflow: 'hidden'}}>
                   <Image
                       src={hero_thumb}
                       alt="img"
-                      style={{transform: 'scale(1.1)', objectFit: 'cover'}}
+                      style={{transform: 'scale(1.5)', objectFit: 'cover'}}
                   />
                </div>
             </div>
