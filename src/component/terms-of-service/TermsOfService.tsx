@@ -40,11 +40,13 @@ const TermsOfService: React.FC = () => {
     ];
 
     return (
-        <div className="wcu-area-1" style={{padding: '10% 21% 0% 21%'}}>
+        <div className="wcu-area-1 mt-150" style={{padding: '0 21% 0 21%'}}>
             <div className="section-title text-center mb-50">
                 <h2 className="title style2">Terms of Use for Amoria App</h2>
                 <p className="sec-text">
-                    Welcome to the Amoria app. Before using our app, please carefully read these Terms of Use. By using our app, you agree to comply with these terms. If you do not agree with these terms, please stop using the app.
+                    Welcome to the Amoria app. Before using our app, please carefully read these Terms of Use. By using
+                    our app, you
+                    agree to comply with these terms. If you do not agree with these terms, please stop using the app.
                 </p>
             </div>
 
@@ -52,11 +54,12 @@ const TermsOfService: React.FC = () => {
                 {policySections.map((section, index) => (
                     <div key={index} className="policy-section mb-30">
                         <h3 className="section-title">{section.title}</h3>
-                        <p className="section-text" dangerouslySetInnerHTML={{ __html: section.content }} />
+                        <p className="section-text" dangerouslySetInnerHTML={{__html: section.content}}/>
                     </div>
                 ))}
             </div>
         </div>
+
     );
 };
 
