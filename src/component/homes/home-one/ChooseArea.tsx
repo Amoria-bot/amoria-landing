@@ -7,7 +7,7 @@ import icon_1 from "@/assets/img/update/icon/1.png"
 import icon_2 from "@/assets/img/update/icon/2.png"
 import icon_3 from "@/assets/img/update/icon/3.png"
 import icon_4 from "@/assets/img/update/icon/4.png"
-import team_2 from "@/assets/img/update/team/team-1-2.png";
+import team_2 from "@/assets/img/update/team/team-1.png";
 import Link from "next/link";
 
 interface DataType {
@@ -85,7 +85,6 @@ const ChooseArea = () => {
    return (
       <div className="wcu-area-1 pt-60 pb-60 position-relative" id="features">
          <div className="">
-            {/*<Image src={choose_thumb_1} alt="img" />*/}
          </div>
          <div className="container">
             <div className="section-title text-center mb-50">
@@ -94,8 +93,8 @@ const ChooseArea = () => {
                </p>
             </div>
             <div className="row gy-5 justify-content-between">
-               <div className="col-lg-6" style={{ height: '800px' }}>
-                  <Image className="chose-area-image" src={team_2} alt="Team Image" style={{ transform: 'scale(2.4)' }}/>
+               <div className="col-lg-6 mt-0" style={{ height: '600px' }}>
+                  <Image className="chose-area-image" src={team_2} alt="Team Image" style={{ transform: 'scale(1)' }}/>
                </div>
                <div className="col-lg-6">
                   {choose_data.map((item) => (

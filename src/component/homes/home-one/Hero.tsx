@@ -20,16 +20,13 @@ const Hero = () => {
          <div className="container">
             <div className="hero-style1">
                <div className="row flex-row-reverse">
-                  {/* Верхня картинка для великих екранів */}
                   <div className="col-lg-5 hero-image-large">
                      <div className="hero-thumb">
                         <Image src={hero_thumb} alt="img" style={{transform: 'scale(1.4)'}}/>
                      </div>
                   </div>
-
-                  {/* Основний текстовий контент */}
                   <div className="col-lg-7">
-                     <h1>Candid Conversations Without Boundaries</h1>
+                     <h1>Candid Conversations <br/> Without Boundaries</h1>
                      <p className="sec-text">
                         Discover Amoria — the platform for intimate and honest dialogues. Choose unique AI-generated
                         companions,
@@ -46,14 +43,18 @@ const Hero = () => {
                   </div>
 
                   {/* Нижня картинка для малих екранів */}
-                  <div className="col-lg-5 hero-image-small mt-150">
-                     <div className="hero-thumb">
-                        <Image src={hero_thumb} alt="img" style={{transform: 'scale(1.4)'}}/>
-                     </div>
-                  </div>
+
                </div>
             </div>
-
+            <div className="col-lg-5 hero-image-small mt-20 pb">
+               <div className="hero-thumb d-flex justify-content-center" style={{overflow: 'hidden'}}>
+                  <Image
+                      src={hero_thumb}
+                      alt="img"
+                      style={{transform: 'scale(1.1)', objectFit: 'cover'}}
+                  />
+               </div>
+            </div>
             <div className="hero-countdown-wrap">
                <h2 className="hero-countdown-wrap-title">Amoria: the atmosphere for daring conversations
                </h2>

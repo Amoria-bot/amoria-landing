@@ -1,6 +1,6 @@
 "use client"
 import Link from "next/link";
-import { useState } from "react";
+import {useState} from "react";
 import UseSticky from "../../hooks/UseSticky";
 import Image from "next/image";
 import NavMenu from "./Menu/NavMenu";
@@ -10,7 +10,7 @@ import HeaderOffcanvas from "./Menu/HeaderOffcanvas";
 import logo_1 from "@/assets/img/logo/logo.png";
 
 const HeaderOne = () => {
-    const { sticky } = UseSticky();
+    const {sticky} = UseSticky();
     const [isActive, setIsActive] = useState<boolean>(false);
     const [offCanvas, setOffCanvas] = useState<boolean>(false);
 
@@ -24,12 +24,18 @@ const HeaderOne = () => {
                                 <div className="menu-wrap">
                                     <nav className="menu-nav">
                                         <div className="logo">
-                                            <Link href="/"><Image src={logo_1} alt="Logo" /></Link>
+                                            <Link href="/"><Image src={logo_1} alt="Logo"/></Link>
                                         </div>
                                         <div className="navbar-wrap main-menu d-none d-lg-flex">
-                                            <NavMenu />
+                                            <NavMenu/>
                                         </div>
-                                        <div onClick={() => setIsActive(true)} className="mobile-nav-toggler"><i className="fas fa-bars"></i></div>
+                                        <div className="header-action">
+                                            <ul className="list-wrap">
+                                                <li className="header-login"><Link className="btn2" href="https://t.me/AmoriaChat_bot">LOGIN</Link></li>
+                                            </ul>
+                                        </div>
+                                        <div onClick={() => setIsActive(true)} className="mobile-nav-toggler"><i
+                                            className="fas fa-bars"></i></div>
                                     </nav>
                                 </div>
                             </div>
@@ -37,8 +43,8 @@ const HeaderOne = () => {
                     </div>
                 </div>
             </header>
-            <Sidebar style={false} isActive={isActive} setIsActive={setIsActive} />
-            <HeaderOffcanvas offCanvas={offCanvas} setOffCanvas={setOffCanvas} />
+            <Sidebar style={false} isActive={isActive} setIsActive={setIsActive}/>
+            <HeaderOffcanvas offCanvas={offCanvas} setOffCanvas={setOffCanvas}/>
         </>
     );
 }

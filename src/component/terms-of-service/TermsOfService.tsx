@@ -40,7 +40,7 @@ const TermsOfService: React.FC = () => {
     ];
 
     return (
-        <div className="wcu-area-1 mt-150" style={{padding: '0 21% 0 21%'}}>
+        <div className="container mt-150" >
             <div className="section-title text-center mb-50">
                 <h2 className="title style2">Terms of Use for Amoria App</h2>
                 <p className="sec-text">

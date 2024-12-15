@@ -12,9 +12,10 @@ const Sidebar = ({ isActive, setIsActive }: any) => {
             <div className="mobile-menu">
                 <nav className="menu-box">
                     <div onClick={() => setIsActive(false)} className="close-btn"><i className="fas fa-times"></i></div>
-                    <div className="nav-logo">
-                        <Link href="/"><Image src={logo_1} alt="Logo"/></Link>
+                    <div className="pt-15 pl-20">
+                        <Link  href="/"><Image src={logo_1} alt="Logo"/></Link>
                     </div>
+
                     <div className="menu-outer">
                         <MobileMenu setIsActive={setIsActive}/>
                     </div>

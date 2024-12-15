@@ -622,9 +622,8 @@ label {
 	display: block !important;
 }
 .mobile-menu .nav-logo {
-	position: relative;
+	/*position: relative;*/
 	padding: 30px 25px;
-	text-align: left;
 }
 .mobile-menu-visible {
 	overflow: hidden;
@@ -1352,7 +1351,7 @@ label {
     top: 0;
     width: 18%;
     height: 100%;
-    background: linear-gradient(90deg, #010314 0%, rgba(1, 3, 20, 0.00) 100%);
+    /*background: linear-gradient(90deg, #010314 0%, rgba(1, 3, 20, 0.00) 100%);*/
     z-index: 5;
 }
 .brand-item-wrap::after {
@@ -3047,6 +3046,12 @@ label {
     color: var(--tg-secondary-color) !important;
     -webkit-text-fill-color: var(--tg-secondary-color) !important;
 }
+
+@media (min-width: 600px) {
+	.custom-width {
+		width: 500px;
+	}
+}
 .sec-text {
     font-size: 18px;
     margin-top: 30px;
@@ -3474,7 +3479,7 @@ label {
     animation-delay: 8s;
 }
 .hero-1 .hero-thumb {
-    margin-top: -53px;
+    margin-top: -23px;
 }
 @keyframes ripple {
     0% {
@@ -3555,7 +3560,7 @@ label {
 .hero-style1 {
     position: relative;
     z-index: 6;
-    padding: 220px 0 30px;
+    padding: 220px 0 60px;
 }
 .hero-style1 .btn-wrap {
     margin-top: 43px;
@@ -3878,7 +3883,7 @@ label {
     position: absolute;
     width: 33px;
     height: 33px;
-    background: var(--tg-secondary-color);
+    background: transparent;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     border-left: 1px solid rgba(255, 255, 255, 0.1);
     transform: rotate(45deg) translate(-50%, 50%);
@@ -3894,7 +3899,6 @@ label {
 .chose-area-image {
 	border-radius: 15px;
 	width: 575px;
-	margin-top: 200px;
 }
 
 /*skill-feature**************/
@@ -4221,8 +4225,8 @@ label {
   .founder-card .founder-card-img {
     mask-image: url(../img/update/team/team-mask.png);
     mask-size: 100% 100%;
-    height: 245px;
-    width: 200px;
+    height: 235px;
+    width: 210px;
     flex: none;
   }
   .founder-card .founder-card-img img {
