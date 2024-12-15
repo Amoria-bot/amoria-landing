@@ -41,12 +41,9 @@ const Hero = () => {
                         </Link>
                      </div>
                   </div>
-
-                  {/* Нижня картинка для малих екранів */}
-
                </div>
             </div>
-            <div className="col-lg-5 hero-image-small mt-20 pb">
+            <div className="col-lg-5 hero-image-small mt-20 pl-30">
                <div className="hero-thumb d-flex justify-content-center" style={{overflow: 'hidden'}}>
                   <Image
                       src={hero_thumb}
