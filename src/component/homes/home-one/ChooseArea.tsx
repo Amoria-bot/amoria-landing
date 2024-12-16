@@ -97,7 +97,7 @@ const ChooseArea = () => {
                   <Image className="chose-area-image d-none d-md-block mt-100" src={team_2} alt="Team Image" style={{ transform: 'scale(1.3)' }}/>
                   <Image className="chose-area-image d-block d-md-none" src={team_2} alt="Team Image" style={{ transform: 'scale(1)' }}/>
                </div>
-               <div className="col-lg-6">
+               <div className="col-lg-6 mt-lg-5 mt-0">
                   {choose_data.map((item) => (
                       <div key={item.id} className="feature-card">
                          <div className="feature-card-icon">
