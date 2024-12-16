@@ -19,13 +19,13 @@ const Hero = () => {
 
          <div className="container">
             <div className="hero-style1">
-               <div className="row flex-row-reverse">
+               <div className="row flex-row-reverse position-relative mt-150">
                   <div className="col-lg-5 hero-image-large">
-                     <div className="hero-thumb">
-                        <Image src={hero_thumb} alt="img" style={{transform: 'scale(1.5)'}}/>
+                     <div className="hero-thumb position-absolute">
+                        <Image src={hero_thumb} alt="img" style={{transform: 'scale(1)'}}/>
                      </div>
                   </div>
-                  <div className="col-lg-7">
+                  <div className="col-lg-7 ">
                      <h1>Candid Conversations <br/> Without Boundaries</h1>
                      <p className="sec-text">
                         Discover Amoria — the platform for intimate and honest dialogues. Choose unique AI-generated
@@ -44,11 +44,11 @@ const Hero = () => {
                </div>
             </div>
             <div className="col-lg-5 hero-image-small mt-20 pl-50">
-               <div className="hero-thumb d-flex justify-content-center pt-80 pb-50" style={{overflow: 'hidden'}}>
+               <div className="hero-thumb d-flex justify-content-center pt-80" style={{overflow: 'hidden'}}>
                   <Image
                       src={hero_thumb}
                       alt="img"
-                      style={{transform: 'scale(1.5)', objectFit: 'cover'}}
+                      style={{transform: 'scale(1)', objectFit: 'cover'}}
                   />
                </div>
             </div>

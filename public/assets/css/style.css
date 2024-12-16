@@ -3479,7 +3479,8 @@ label {
     animation-delay: 8s;
 }
 .hero-1 .hero-thumb {
-    margin-top: -40px;
+    margin-top: -100px;
+	top: -140px;
 }
 @keyframes ripple {
     0% {
@@ -3899,8 +3900,15 @@ label {
 .chose-area-image {
 	border-radius: 15px;
 	width: 575px;
+	/*margin-top: 100px;*/
 }
-
+/*@media (max-width: 991px) {*/
+/*	.chose-area-image {*/
+/*		border-radius: 15px;*/
+/*		width: 575px;*/
+/*		margin-top: 0px;*/
+/*	}*/
+/*}*/
 /*skill-feature**************/
 .skill-feature {
     position: relative;

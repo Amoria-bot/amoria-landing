@@ -93,8 +93,9 @@ const ChooseArea = () => {
                </p>
             </div>
             <div className="row gy-5 justify-content-between">
-               <div className="col-lg-6 mt-0" style={{ height: '600px' }}>
-                  <Image className="chose-area-image" src={team_2} alt="Team Image" style={{ transform: 'scale(1)' }}/>
+               <div className="col-lg-6" style={{ height: 'fit-content' }}>
+                  <Image className="chose-area-image d-none d-md-block mt-100" src={team_2} alt="Team Image" style={{ transform: 'scale(1.3)' }}/>
+                  <Image className="chose-area-image d-block d-md-none" src={team_2} alt="Team Image" style={{ transform: 'scale(1)' }}/>
                </div>
                <div className="col-lg-6">
                   {choose_data.map((item) => (
