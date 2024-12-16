@@ -25,7 +25,7 @@ const CtaAreaTwo = () => {
                   <Image className="" src={ctaThumb} alt="img" style={{transform: 'scale(1.8)'}}/>
                </div>
                <div className="cta-3-thumb d-block d-md-none">
-                  <Image className="" src={ctaThumb} alt="img" style={{transform: 'scale(1.3)'}}/>
+                  <Image className="" src={ctaThumb} alt="img" style={{transform: 'scale(1.25)'}}/>
                </div>
             </div>
 

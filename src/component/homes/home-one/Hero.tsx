@@ -43,7 +43,7 @@ const Hero = () => {
                   </div>
                </div>
             </div>
-            <div className="col-lg-5 hero-image-small mt-20 pl-20">
+            <div className="col-lg-5 hero-image-small mt-20">
                <div className="hero-thumb d-flex justify-content-center pt-80" style={{overflow: 'hidden'}}>
                   <Image
                       src={hero_thumb}
