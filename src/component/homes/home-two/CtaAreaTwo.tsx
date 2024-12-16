@@ -21,8 +21,11 @@ const CtaAreaTwo = () => {
                      Start an intimate dialogue
                   </Link>
                </div>
-               <div className="cta-3-thumb">
-                  <Image className="" src={ctaThumb} alt="img" style={{transform: 'scale(1.2)'}}/>
+               <div className="cta-3-thumb d-none d-md-block">
+                  <Image className="" src={ctaThumb} alt="img" style={{transform: 'scale(1.8)'}}/>
+               </div>
+               <div className="cta-3-thumb d-block d-md-none">
+                  <Image className="" src={ctaThumb} alt="img" style={{transform: 'scale(1.3)'}}/>
                </div>
             </div>
 

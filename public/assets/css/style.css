@@ -169,7 +169,7 @@ h6 a {
 	color: inherit;
 }
 h1 {
-	font-size: 3rem;
+	font-size: 2.9rem;
 }
 h2 {
 	font-size: 2rem;
@@ -3401,7 +3401,7 @@ label {
 .hero-1 {
     position: relative;
     overflow: hidden;
-    padding-bottom: 145px;
+    padding-bottom: 100px;
 }
 .hero-1 .hero-bg-gradient {
     position: absolute;
@@ -3480,7 +3480,7 @@ label {
 }
 .hero-1 .hero-thumb {
     margin-top: -100px;
-	top: -140px;
+	top: -91px;
 }
 @keyframes ripple {
     0% {
@@ -3561,7 +3561,8 @@ label {
 .hero-style1 {
     position: relative;
     z-index: 6;
-    padding: 220px 0 60px;
+    padding-bottom: 60px;
+	padding-top: 100px;
 }
 .hero-style1 .btn-wrap {
     margin-top: 43px;
@@ -3572,7 +3573,7 @@ label {
 }
 @media (max-width: 991px) {
     .hero-style1 {
-        padding: 170px 0 100px;
+        padding: 0;
         text-align: center;
     }
     .hero-style1 .btn-wrap {
@@ -3581,12 +3582,13 @@ label {
 }
 @media (max-width: 767px) {
     .hero-style1 {
-        padding: 150px 0 100px;
-    }
+		padding: 0;
+
+	}
 }
 @media (max-width: 575px) {
     .hero-style1 {
-      padding: 150px 0 80px;
+      padding: 0;
     }
 }
 .hero-image-large {
@@ -5964,6 +5966,7 @@ label {
     }
     .cta-wrap3 .cta-3-thumb {
       margin-top: 0;
+		margin-left: 20px;
       animation: none !important;
     }
   }
