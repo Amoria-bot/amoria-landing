@@ -4,6 +4,8 @@ import Link from "next/link";
 import footer_bg from "@/assets/img/update/bg/bg-gradient1-1.jpg";
 
 const FooterOne = () => {
+   const currentYear = new Date().getFullYear();
+   
    return (
       <footer className="footer-wrapper footer-layout1 position-relative mt-60">
          <div className="bg-gradient-1">
@@ -70,7 +72,7 @@ const FooterOne = () => {
             <div className="container">
                <div className="row gy-3 justify-content-between align-items-center">
                   <div className="col-lg-6 align-self-center">
-                     <p className="copyright-text">Copyright © 2024 Amoria. All rights reserved.</p>
+                     <p className="copyright-text">Copyright © 2024-{currentYear} Amoria. All rights reserved.</p>
                   </div>
                   <div className="col-lg-6 text-lg-end">
                      <ul className="footer-links">
