@@ -17,8 +17,8 @@ interface DataType {
    id: number;
    thumb: StaticImageData;
    title: string;
-   designasion: string
-}[];
+   designasion: string;
+}
 
 const founder_data: DataType[] = [
    {
@@ -69,14 +69,12 @@ const founder_data: DataType[] = [
       title: "Sophie Snow",
       designasion: "A vibrant adventurer who can turn any conversation into a true adventure.",
    },
-   ,
    {
       id: 9,
       thumb: character_9,
       title: "Clara Skye",
       designasion: "A cool enigma with a sharp tongue and sharper mind—every word hits home and keeps you guessing.",
    },
-   ,
    {
       id: 10,
       thumb: character_10,
