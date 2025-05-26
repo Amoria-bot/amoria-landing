@@ -35,7 +35,7 @@ const Hero = () => {
                         for users 18 and older.
                      </p>
                      <div className="btn-wrap">
-                        <Link href="https://t.me/AmoriaChat_bot?startapp=ref_cROAbOePbn__lp___main-top" className="btn btn2">
+                        <Link href="https://t.me/AmoriaChat_bot/amoria" className="btn btn2">
                            Start an intimate dialogue &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;<i
                             className="fab fa-telegram-plane telegram-icon"></i>
                         </Link>

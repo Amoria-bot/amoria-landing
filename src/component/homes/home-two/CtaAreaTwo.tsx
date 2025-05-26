@@ -17,7 +17,7 @@ const CtaAreaTwo = () => {
                         Choose the one who’s ready to share your most intimate desires — without limits or restrictions.
                      </p>
                   </div>
-                  <Link href="https://t.me/AmoriaChat_bot?startapp=ref_cROAbOePbn__lp___main-button" className="btn btn-two">
+                  <Link href="https://t.me/AmoriaChat_bot/amoria" className="btn btn-two">
                      Start an intimate dialogue
                   </Link>
                </div>

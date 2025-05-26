@@ -31,7 +31,7 @@ const HeaderOne = () => {
                                         </div>
                                         <div className="header-action">
                                             <ul className="list-wrap">
-                                                <li className="header-login"><Link className="btn2" href="https://t.me/AmoriaChat_bot?startapp=ref_cROAbOePbn__lp___login">LOGIN</Link></li>
+                                                <li className="header-login"><Link className="btn2" href="https://t.me/AmoriaChat_bot/amoria">LOGIN</Link></li>
                                             </ul>
                                         </div>
                                         <div onClick={() => setIsActive(true)} className="mobile-nav-toggler"><i

@@ -103,7 +103,7 @@ const TeamFounder = () => {
                            <h3 className="founder-card-title">{item.title}</h3>
                            <p className="founder-card-desig">{item.designasion}</p>
                            <div className="">
-                              <Link href="https://t.me/AmoriaChat_bot?startapp=ref_cROAbOePbn__lp___character" className="btn btn2" >
+                              <Link href="https://t.me/AmoriaChat_bot/amoria" className="btn btn2" >
                                  Start dialogue
                               </Link>
                            </div>
