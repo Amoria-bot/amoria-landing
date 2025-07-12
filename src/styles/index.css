@@ -9,3 +9,248 @@
 @import "../../public/assets/css/fontawesome-all.min.css";
 @import "../../public/assets/css/style.css";
 @import "../../public/assets/css/responsive.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* Hide scroll-top button on 404 error page */
+body:has(.eg-error__area) .scroll-top {
+  display: none !important;
+}
+
+/* Ensure scroll-top button is below mobile menu */
+.scroll-top {
+  z-index: 1 !important;
+}
+
+/* Mobile menu logo optimization */
+.mobile-menu-visible {
+  z-index: 9999;
+}
+
+.mobile-menu {
+  z-index: 9999;
+}
+
+.menu-backdrop {
+  z-index: 9998;
+}
+
+.mobile-menu .close-btn {
+  position: absolute;
+  top: 22px;
+  right: 20px;
+  z-index: 10;
+}
+
+.mobile-menu-logo-container {
+  padding: 25px 20px 30px 20px;
+}
+
+.mobile-menu-logo {
+  max-width: 100px;
+  height: auto;
+  display: block;
+}
+
+.mobile-menu .menu-outer {
+  padding-top: 10px;
+}
+
+/* Mobile optimization for section paddings */
+@media (max-width: 991px) {
+  /* Reduce top padding on mobile for sections with both top and bottom padding */
+  .pt-60 {
+    padding-top: 30px !important;
+  }
+  
+  .pt-130 {
+    padding-top: 50px !important;
+  }
+  
+  .pt-140 {
+    padding-top: 60px !important;
+  }
+  
+  .pb-60 {
+    padding-bottom: 30px !important;
+  }
+  
+  .pb-130 {
+    padding-bottom: 50px !important;
+  }
+  
+  .pb-140 {
+    padding-bottom: 60px !important;
+  }
+  
+  /* Additional padding classes optimization */
+  .pt-110 {
+    padding-top: 45px !important;
+  }
+  
+  .pb-110 {
+    padding-bottom: 45px !important;
+  }
+  
+  .mb-50 {
+    margin-bottom: 30px !important;
+  }
+  
+  .mb-75 {
+    margin-bottom: 40px !important;
+  }
+  
+  /* Special handling for sections that commonly have spacing issues */
+  #reviews.pt-60 {
+    padding-top: 20px !important;
+  }
+  
+  #faq.pt-60 {
+    padding-top: 20px !important;
+  }
+  
+  #characters.pt-60 {
+    padding-top: 20px !important;
+  }
+  
+  #startnow.pt-60 {
+    padding-top: 20px !important;
+  }
+  
+  /* Footer optimization */
+  .footer-wrapper.mt-60 {
+    margin-top: 30px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  /* Further reduce on smaller mobile screens */
+  .pt-60 {
+    padding-top: 20px !important;
+  }
+  
+  .pt-130 {
+    padding-top: 35px !important;
+  }
+  
+  .pt-140 {
+    padding-top: 40px !important;
+  }
+  
+  .pb-60 {
+    padding-bottom: 20px !important;
+  }
+  
+  .pb-130 {
+    padding-bottom: 35px !important;
+  }
+  
+  .pb-140 {
+    padding-bottom: 40px !important;
+  }
+  
+  /* Additional padding classes optimization */
+  .pt-110 {
+    padding-top: 30px !important;
+  }
+  
+  .pb-110 {
+    padding-bottom: 30px !important;
+  }
+  
+  .mb-50 {
+    margin-bottom: 20px !important;
+  }
+  
+  .mb-75 {
+    margin-bottom: 25px !important;
+  }
+  
+  /* Even less spacing for specific sections on tablets */
+  #reviews.pt-60 {
+    padding-top: 15px !important;
+  }
+  
+  #faq.pt-60 {
+    padding-top: 15px !important;
+  }
+  
+  #characters.pt-60 {
+    padding-top: 15px !important;
+  }
+  
+  #startnow.pt-60 {
+    padding-top: 15px !important;
+  }
+  
+  /* Footer optimization */
+  .footer-wrapper.mt-60 {
+    margin-top: 20px !important;
+  }
+}
+
+@media (max-width: 575px) {
+  /* Minimum spacing for very small screens */
+  .pt-60 {
+    padding-top: 15px !important;
+  }
+  
+  .pt-130 {
+    padding-top: 25px !important;
+  }
+  
+  .pt-140 {
+    padding-top: 30px !important;
+  }
+  
+  .pb-60 {
+    padding-bottom: 15px !important;
+  }
+  
+  .pb-130 {
+    padding-bottom: 25px !important;
+  }
+  
+  .pb-140 {
+    padding-bottom: 30px !important;
+  }
+  
+  /* Additional padding classes optimization */
+  .pt-110 {
+    padding-top: 20px !important;
+  }
+  
+  .pb-110 {
+    padding-bottom: 20px !important;
+  }
+  
+  .mb-50 {
+    margin-bottom: 15px !important;
+  }
+  
+  .mb-75 {
+    margin-bottom: 20px !important;
+  }
+  
+  /* Minimal spacing for specific sections on small phones */
+  #reviews.pt-60 {
+    padding-top: 10px !important;
+  }
+  
+  #faq.pt-60 {
+    padding-top: 10px !important;
+  }
+  
+  #characters.pt-60 {
+    padding-top: 10px !important;
+  }
+  
+  #startnow.pt-60 {
+    padding-top: 10px !important;
+  }
+  
+  /* Footer optimization */
+  .footer-wrapper.mt-60 {
+    margin-top: 15px !important;
+  }
+}

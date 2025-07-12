@@ -11,7 +11,16 @@ import character_7 from "@/assets/img/update/team/character-7.jpg"
 import character_8 from "@/assets/img/update/team/character-8.jpg"
 import character_9 from "@/assets/img/update/team/character-9.jpg"
 import character_10 from "@/assets/img/update/team/character-10.jpg"
-
+import character_11 from "@/assets/img/update/team/character-11.jpg"
+import character_12 from "@/assets/img/update/team/character-12.jpg"
+import character_13 from "@/assets/img/update/team/character-13.jpg"
+import character_14 from "@/assets/img/update/team/character-14.jpg"
+import character_15 from "@/assets/img/update/team/character-15.jpg"
+import character_16 from "@/assets/img/update/team/character-16.jpg"
+import character_17 from "@/assets/img/update/team/character-17.jpg"
+import character_18 from "@/assets/img/update/team/character-18.jpg"
+import character_19 from "@/assets/img/update/team/character-19.jpg"
+import character_20 from "@/assets/img/update/team/character-20.jpg"
 
 interface DataType {
    id: number;
@@ -81,6 +90,66 @@ const founder_data: DataType[] = [
       title: "Vanessa Сrystal",
       designasion: "Fiery and confident—her words spark desire and draw you in.",
    },
+   {
+      id: 11,
+      thumb: character_11,
+      title: "Mia Foxx",
+      designasion: "Gentle flirtation, sophistication, and passion.",
+    },
+    {
+      id: 12,
+      thumb: character_12,
+      title: "Samantha Jade",
+      designasion: "Playfulness, spring breeze, and mystery.",
+    },
+    {
+      id: 13,
+      thumb: character_13,
+      title: "Aurora Flame",
+      designasion: "Soft confidence, candor, and passion.",
+    },
+    {
+      id: 14,
+      thumb: character_14,
+      title: "Amber Blaze",
+      designasion: "Fiery flirtation, mystery, and sparks of passion.",
+    },
+    {
+      id: 15,
+      thumb: character_15,
+      title: "Ella Bliss",
+      designasion: "Grace, allure, and captivating music.",
+    },
+    {
+      id: 16,
+      thumb: character_16,
+      title: "Olivia Skye",
+      designasion: "Warm whispers, comfort, and desire.",
+    },
+    {
+      id: 17,
+      thumb: character_17,
+      title: "Tiffany Rose",
+      designasion: "Refined allure, softness, and comfort.",
+    },
+    {
+      id: 18,
+      thumb: character_18,
+      title: "Aiko Hana",
+      designasion: "Gentle flirtation, warmth, and sensuality.",
+    },
+    {
+      id: 19,
+      thumb: character_19,
+      title: "Yumi Asuka",
+      designasion: "Spicy aroma, passion, and magic.",
+    },
+    {
+      id: 20,
+      thumb: character_20,
+      title: "Rina Takara",
+      designasion: "Jasmine whispers, magic, and desire.",
+    }
 ]
 
 const TeamFounder = () => {
@@ -88,7 +157,7 @@ const TeamFounder = () => {
       <div className="pb-60">
          <div className="container">
             <div className="section-title text-center mb-50">
-               <h2 className="title style2">Those ready to share your desires</h2>
+               <h2 className="title style2">Those Ready to Share Your Desires</h2>
                <p className="sec-text">Each companion is something special: a unique style, character, and secrets. Choose the one who attracts you the most and start an exciting dialogue right now.
                </p>
             </div>
