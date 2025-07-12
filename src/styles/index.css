@@ -48,6 +48,7 @@ body:has(.eg-error__area) .scroll-top {
 
 .mobile-menu-logo {
   max-width: 100px;
+  width: auto;
   height: auto;
   display: block;
 }

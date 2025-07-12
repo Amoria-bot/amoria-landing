@@ -3691,7 +3691,7 @@ label {
     margin: 37px 0 25px;
     display: flex;
     justify-content: space-between;
-    align-items: end;
+    align-items: flex-end;
 }
 .hero-countdown-wrap .skill-feature_list li {
     color: var(--tg-white);
@@ -3776,7 +3776,7 @@ label {
 }
 .hero-countdown-wrap .skill-feature_list.style2 {
     margin-top: 17px;
-    align-items: start;
+    align-items: flex-start;
 }
 .hero-countdown-wrap .skill-feature_list.style2 li:first-child {
     padding-left: 0;
@@ -4689,7 +4689,7 @@ label {
     margin-bottom: 0;
     text-align: left;
     transition: 0.3s;
-    align-items: start;
+    align-items: flex-start;
     position: inherit;
   }
   .accordion-card .accordion-button .number {

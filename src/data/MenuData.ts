@@ -48,7 +48,7 @@ const menu_data: MenuItem[] = [
         link: "/#faq",
     },
     {
-        id: 5,
+        id: 6,
         page:"nav_1",
         has_dropdown: false,
         title: "Start Now",
